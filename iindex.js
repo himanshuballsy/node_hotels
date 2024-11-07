@@ -14,6 +14,7 @@ const logokaroutes = require('./router/route'); // Correctly points to the route
 app.use('/buildo', logokaroutes);
 
 // Start the server on port 3000
+//aaja bilo ranni
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
